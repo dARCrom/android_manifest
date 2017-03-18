@@ -33,6 +33,6 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dARCrom" revision="n7x" />
 
   <!-- vendor -->
-  <project path="vendor/dARCrom" name="android_vendor_du" remote="dARCrom" revision="n7x" />
+  <project path="vendor/dARCrom" name="android_vendor_dARCrom" remote="dARCrom" revision="n7x" />
 
 </manifest>
