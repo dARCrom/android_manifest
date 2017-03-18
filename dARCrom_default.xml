@@ -31,7 +31,7 @@
 
   <!-- test devices -->
   <!-- <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead"  remote="dARCrom" revision="n7x"/> -->
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" remote="dARCrom" revision="n7x" clone-depth="1" />
+  <!--<project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" remote="dARCrom" revision="n7x" clone-depth="1" />-->
 
   <!-- packages -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dARCrom" revision="n7x" />
