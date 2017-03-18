@@ -112,6 +112,6 @@
   <!--<project path="vendor/du" name="android_vendor_du" remote="du" revision="n7x" />-->
 
   <!-- remove unnused DU packages -->
-  <include name="n7x_remove.xml" />
+  <!--<include name="n7x_remove.xml" />-->
 
 </manifest>
