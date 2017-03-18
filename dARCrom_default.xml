@@ -30,7 +30,7 @@
   <project path="manifest" name="android_manifest" remote="dARCrom" revision="n7x" />-->
 
   <!-- test devices -->
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead"  remote="dARCrom" revision="n7x"/>
+  <!-- <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead"  remote="dARCrom" revision="n7x"/> -->
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" remote="dARCrom" revision="n7x" clone-depth="1" />
 
   <!-- packages -->
