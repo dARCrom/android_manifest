@@ -5,10 +5,6 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <!-- dARCrom remote -->
-  <remote  name="dARCrom"
-           fetch="https://github.com/dARCrom/" />
-
   <default revision="refs/tags/android-7.1.1_r28"
            remote="aosp"
            sync-c="true"
@@ -66,8 +62,8 @@
   <project path="device/huawei/angler" name="device/huawei/angler" groups="device,angler,broadcom_pdk" />
   <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" clone-depth="1" />
   <project path="device/intel/edison" name="device/intel/edison" groups="device" />
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead"  remote="dARCrom" revision="n7x"/>
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" remote="dARCrom" revision="n7x" clone-depth="1" />
+  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead" />
+  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead" clone-depth="1" />
   <project path="device/linaro/hikey" name="device/linaro/hikey" />
   <project path="device/linaro/hikey-kernel" name="device/linaro/hikey-kernel" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu,broadcom_pdk" />
