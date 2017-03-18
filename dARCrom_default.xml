@@ -13,7 +13,7 @@
 
   <!-- general -->
   <!-- TODO: replace du build config stuff with dARCrom config -->
-  <!--<project path="build" name="android_build" remote="dARCrom" revision="n7x" >
+  <project path="build" name="android_build" remote="dARCrom" revision="n7x" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="android_build_blueprint" remote="dARCrom" revision="n7x" />
@@ -22,7 +22,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="android_art" remote="dARCrom" revision="n7x" />
+  <!--<project path="art" name="android_art" remote="dARCrom" revision="n7x" />
   <project path="bionic" name="android_bionic" remote="dARCrom" revision="n7x" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="dARCrom" revision="n7x" />
   <project path="development" name="android_development" remote="dARCrom" revision="n7x" />
