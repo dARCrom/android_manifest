@@ -550,10 +550,10 @@
   <!-- Remove unused AOSP repos -->
   <include name="remove.xml" />
 
-  <!-- Add all tracked dARCrom repos -->
-  <include name="dARCrom_default.xml" />
-
   <!-- Add all tracked DU/AOSP repos -->
   <include name="n7x_default.xml" />
+
+  <!-- Add all tracked dARCrom repos -->
+  <include name="dARCrom_default.xml" />
 
 </manifest>
